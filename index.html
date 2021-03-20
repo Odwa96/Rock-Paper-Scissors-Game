@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Rock,Paper,Scissors</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Rock Paper Scissors</h1>
+        <div class="flex-box-rps" id="flex-box-rps-div">
+            <img id='rock1' src="images/rock1.jpg" width="150" height="150" alt="" onclick="rpsGame(this)">
+            <img id='paper1' src="images/paper1.png" width="150" height="150" alt="" onclick="rpsGame(this)">
+            <img id='scissors1' src="images/scissors1.png" width="150" height="150" alt="" onclick="rpsGame(this)">
+            
+        </div>
+    </div>
+
+    <div>
+        <h1>Player Is <span id="player">BLUE</span></h1>
+        <h1>Computer Is <span id="comp">RED</span></h1>
+    </div>
+
+    <div id="instructions">
+        <h2>Instructions</h2>
+         <ul><li>Select either rock, paper, scissors image</li></ul> 
+         <ul><li>Press <span id="fFive">F5 or Refresh</span> to restart</li></ul>
+        <ul><li>Press <span id="fFive">Refresh On Mobile</span> to restart</li></ul> 
+    </div>
+
+    <script src="scripts/js_RPS.js"></script>
+</body>
+</html>
